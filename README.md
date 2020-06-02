@@ -22,8 +22,8 @@ To load the model and create test images in inference phase, see the ```/256x256
 ## Results
 Please refer to the project samples PDF file under ```docs/``` for more insight into our dataset and training observations.
 
-<div align=center><img src="docs/input_imgs.png" width="50%"/></div>
-<div align=center><img src="docs/outputs.png" width="50%"/></div>
+<div align=center><img src="docs/input_imgs.png" width="80%"/></div>
+<div align=center><img src="docs/outputs.png" width="80%"/></div>
 
 ## Acknowledgement
 Our project relied highly on the following repo:

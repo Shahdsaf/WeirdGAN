@@ -1,29 +1,38 @@
-# GAN Keras Dog Generator
+# Artistic GAN with TensorFlow and Keras
+A novel artistic GAN that generates alien interestingly-looking objects as a result of the input dataset we've created to train our GAN on and bias the generator to create such fascinating novel mixed colors as well.    
 
-Generative Adversarial Networks (on [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/))
+# Requirement
+To run the code, you need
+- [keras](https://keras.io/)
+- [TensorFlow](https://www.tensorflow.org/)
 
+# Alien-GAN components 
+### **Dataset**: 
+The dataset is a collection of weirdly-looking alien-like objects including space rocks from different point of views, abstract artworks etc. The dataset was fully prepared by [Benjamin Bnurgenc](https://github.com/bnurgenc), an artist that initiated this project's idea. 
+
+### **Models**:
+- **64x64 GAN**: This model uses a GAN model for generating images of size 64x64. 
+- **256x256 GAN**: For generating images of size 256x256. 
+ 
 ## Training
+To train the network, run ```python <model_version>_version/training.py```.
 
-### Epoch 0-50
+To load the model and create test images in inference phase, see the ```/256x256_scaled_version/test_notebook.ipynb``` notebook.
 
-![i50](/figures/image_50.png)
+## Results
+Please refer to the project samples PDF file under ```docs/``` for more insight into our dataset and training observations.
 
-![](/figures/loss_50.png)
+### Dataset samples:
+<div align=center><img src="docs/input_imgs.png" width="80%"/></div>
 
-### Epoch 50-100
 
-![](/figures/image_100.png)
+### Generated samples:
 
-![](/figures/loss_100.png)
+<div align=center><img src="docs/outputs.png" width="90%"/></div>
 
-### Epoch 100-150
+## Acknowledgement
+Our project relied highly on the following repo:
+- https://github.com/javiermzll/GAN-Dog-Generator
 
-![](/figures/image_150.png)
-
-![](/figures/loss_150.png)
-
-### Epoch 150-200
-
-![](/figures/image_200.png)
-
-![](/figures/loss_200.png)
+# Authors
+[Shahd Safarani](https://github.com/Shahdsaf) and [Benjamin Bnurgenc](https://github.com/bnurgenc)

@@ -8,7 +8,7 @@ To run the code, you need
 
 # Alien-GAN components 
 ### **Dataset**: 
-The dataset is a collection of weirdly-looking alien-like objects including space rocks from different point of views, abstract artworks etc. The dataset was fully prepared by [Benjamin Bnurgenc](https://github.com/bnurgenc), an artist that initiated this project's idea. 
+The dataset is a collection of weirdly-looking alien-like objects including space rocks from different point of views, abstract artworks etc. The dataset was fully prepared by [Ben Nurgenc](https://github.com/bnurgenc), an artist that initiated this project's idea. 
 
 ### **Models**:
 - **64x64 GAN**: This model uses a GAN model for generating images of size 64x64. 
@@ -35,4 +35,4 @@ Our project relied highly on the following repo:
 - https://github.com/javiermzll/GAN-Dog-Generator
 
 # Authors
-[Shahd Safarani](https://github.com/Shahdsaf) and [Benjamin Bnurgenc](https://github.com/bnurgenc)
+[Shahd Safarani](https://github.com/Shahdsaf) and [Ben Nurgenc](https://github.com/bnurgenc)

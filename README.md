@@ -6,7 +6,7 @@ To run the code, you need
 - [keras](https://keras.io/)
 - [TensorFlow](https://www.tensorflow.org/)
 
-# Alien-GAN components 
+# WeirdGAN components 
 ### **Dataset**: 
 The dataset is a collection of weirdly-looking alien-like objects including space rocks from different point of views, abstract artworks etc. The dataset was fully prepared by [Ben Nurgenc](https://github.com/bnurgenc), an artist that initiated this project's idea. 
 

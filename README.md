@@ -18,6 +18,7 @@ The dataset is a collection of weirdly-looking alien-like objects including spac
 To train the network, run ```python <model_version>_version/training.py```.
 
 To load the model and create test images in inference phase, see the ```/256x256_scaled_version/test_notebook.ipynb``` notebook.
+Link to the trained models: https://bit.ly/3rmMzv3
 
 ## Results
 Please refer to the project samples PDF file under ```docs/``` for more insight into our dataset and training observations.

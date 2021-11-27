@@ -1,5 +1,7 @@
 # Artistic GAN with TensorFlow and Keras
-A novel artistic GAN that generates alien interestingly-looking objects as a result of the input dataset we've created to train our GAN on and bias the generator to create such fascinating novel mixed colors as well.    
+A novel artistic GAN that generates alien interestingly-looking objects as a result of the input dataset we've created to train our GAN on and bias the generator to create such fascinating novel mixed colors as well.
+
+This work has been shown in the exhibition of [Future Proof](https://www.galeriepostel.de/current-exhibition/futureproof/) at Galerie Postel in Hamburg!
 
 # Requirement
 To run the code, you need
